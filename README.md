@@ -59,6 +59,23 @@
 
 ## 附加
 
+### 添加 WeUI
+
+1. 下载 [weui-wxss](https://github.com/Tencent/weui-wxss) 的代码，
+将 `dist` 目录拷贝到 `miniprogram-template/miniprogram/` 下面。
+
+2. 在 `app.wxss` 中全局引入，在第一行添加：
+
+    ```css
+    @import "./dist/style/weui.wxss";
+    ```
+
+3. 在wxml 中使用样式：
+
+    ```html
+    <button class="weui-btn" type="primary">页面主操作</button>
+    ```
+
 ### 添加 iView Weapp
 
 1. 下载 [iView Weapp](https://github.com/TalkingData/iview-weapp) 的代码，
