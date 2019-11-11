@@ -92,7 +92,26 @@
 3. 在 wxml 中使用组件:
 
     ```html
-    <i-button type="primary" bind:click="handleClick">这是一个按钮</i-button>
+    <i-button type="primary">这是一个按钮</i-button>
+    ```
+
+### 添加 Vant Weapp
+
+1. 下载 [Vant Weapp](https://github.com/youzan/vant-weapp) 的代码，
+将 `dist` 目录拷贝到 `miniprogram-template/miniprogram/` 下面。
+
+2. 在页面的 json 中配置需要使用的组件：
+
+    ```json
+    "usingComponents": {
+        "van-button": "../../dist/button/index"
+    }
+    ```
+
+3. 在 wxml 中使用组件:
+
+    ```html
+    <van-button type="primary">这是一个按钮</van-button>
     ```
 
 ## 许可
@@ -104,4 +123,4 @@
 - [Flask document](https://dormousehole.readthedocs.io/en/latest/)
 - [如何安装 Python 开发环境？](https://v2ai.cn/linux/2018/04/29/LX-2.html)
 - [iView Weapp document](https://weapp.iviewui.com/)
-
+- [Vant Weapp document](https://youzan.github.io/vant-weapp/#/intro)
