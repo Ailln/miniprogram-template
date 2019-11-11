@@ -122,5 +122,6 @@
 
 - [Flask document](https://dormousehole.readthedocs.io/en/latest/)
 - [如何安装 Python 开发环境？](https://v2ai.cn/linux/2018/04/29/LX-2.html)
+- [WeUI document](https://weui.io/)
 - [iView Weapp document](https://weapp.iviewui.com/)
 - [Vant Weapp document](https://youzan.github.io/vant-weapp/#/intro)
