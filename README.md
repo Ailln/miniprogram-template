@@ -9,7 +9,7 @@
 2. 将刚刚创建好的项目克隆到本地，这里以本项目为例，实际操作时这里需要替换你自己的项目。
 
     ```bash
-    git clone https://github.com/HaveTwoBrush/miniprogram-template.git --depth 1
+    git clone https://github.com/Ailln/miniprogram-template.git --depth 1
     ```
 
 3. 安装环境依赖，启动后端。(本项目需要 Python 环境，如果对这部分不熟悉的看最后的参考文章)
